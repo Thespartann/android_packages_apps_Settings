@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Music</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_60" translatable="false">60</string>
+    <string name="volume_steps_45" translatable="false">45</string>
+    <string name="volume_steps_30" translatable="false">30</string>
+    <string name="volume_steps_15" translatable="false">15</string>
+    <string name="volume_steps_7" translatable="false">7</string>
+    <string name="volume_steps_5" translatable="false">5</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_cat_title">SELinux Switch</string>
+    <string name="selinux_switch_title">SELinux info</string>
+    <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Requires root permission. Use at your own risk.</string>
+    <string name="selinux_title">SELinux Mode</string>
+    <string name="selinux_permissive_title">Permissive</string>
+    <string name="selinux_enforcing_title">Enforcing</string>
+    <string name="selinux_permissive_toast_title">SELinux mode set to permissive!</string>
+
+    <!-- USB mode dialog -->
+    <string name="usb_mode_dialog_show_title">Show USB mode dialog</string>
+    <string name="usb_mode_dialog_show_summary">Shows a chooser dialog when your device is connected to PC via USB</string>
+
+    <!-- Long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Long press back button timeout</string>
+    <string name="timeout_2000">2 seconds (default)</string>
+    <string name="timeout_1500">1,5 seconds</string>
+    <string name="timeout_1000">1 second</string>
+    <string name="timeout_500">0,5 second</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+
+    <string name="ambient_display_show_battery_title">Статус батареи</string>
+    <string name="ambient_display_show_battery_summary">Показывать значок батареи во время пульсации</string>
+
+    <string name="no_sim_cluster_switch_title">No sim network hide</string>
+    <string name="no_sim_cluster_switch_summary">Hide the network bar if the subscription of sim is inactive and disabled. If sim is not disabled, this switch will not work</string>
+
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_custom_brightness_title">Ambient brightness</string>
+    <string name="ambient_doze_auto_brightness_title">Ambient auto brightness</string>
+    <string name="ambient_doze_auto_brightness_summary">Use last screen-on brightness value for Ambient Display</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Switch between primary and accent colors</string>
+    <string name="theme_title">Color engine</string>
+    <string name="theme_summary">Select different colors for your current theme</string>
+    <string name="theme_accent_color">Accent color</string>
+    <string name="theme_primary_color">Primary color</string>
+    <string name="theme">Theme</string>
+    <string name="oms_enabled">Theme modes unavailable because a Substratum theme is currently applied</string>
+    <string name="red">Torch Red</string>
+    <string name="orange">Vermilion</string>
+    <string name="blue">Pixel Blue</string>
+    <string name="green">Lima</string>
+    <string name="yellow">Supernova</string>
+    <string name="purple">Purple Heat</string>
+    <string name="pink">Rose</string>
+    <string name="dark">Dark</string>
+    <string name="pixel">Pixel</string>
+    <string name="teal">Default</string>
+    <string name="cyan">Scooter</string>
+    <string name="grey">Grey</string>
+    <string name="default_string">Default</string>
+</resources>

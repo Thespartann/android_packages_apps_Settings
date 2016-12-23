@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Налаштування для розробників увімкнуті за замовчуванням.</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Рівні гучності</string>
+    <string name="volume_steps_alarm_title">Рівень гучності: Будильник</string>
+    <string name="volume_steps_dtmf_title">Рівень гучності: Набір номера</string>
+    <string name="volume_steps_music_title">Рівень гучності: Музика</string>
+    <string name="volume_steps_notification_title">Рівень гучності: Сповіщення</string>
+    <string name="volume_steps_ring_title">Рівень гучності: Дзвінок</string>
+    <string name="volume_steps_system_title">Рівень гучності: Система</string>
+    <string name="volume_steps_voice_call_title">Рівень гучності: Голосовий виклик</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_cat_title">Перемикач SELinux</string>
+    <string name="selinux_switch_title">Інформація про SELinux</string>
+    <string name="selinux_switch_summary">SELinux являє собою набір модифікацій ядра та засобів простору користувача. Зміна режимів може призвести до небажаних наслідків. Використовуйте на свій страх і ризик.</string>
+    <string name="selinux_title">Режим SELinux</string>
+    <string name="selinux_permissive_title">Право на доступ</string>
+    <string name="selinux_enforcing_title">Примусово</string>
+    <string name="selinux_permissive_toast_title">SELinux в режиме: Право на доступ!</string>
+
+    <!-- USB mode dialog -->
+    <string name="usb_mode_dialog_show_title">Показувати діалог вибору режиму USB</string>
+    <string name="usb_mode_dialog_show_summary">"Показує діалог вибору режиму, коли пристрій підключається до комп'ютера через USB"</string>
+
+    <!-- Long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Тривалість довгого натискання кнопки «Назад»</string>
+    <string name="timeout_2000">2 секунди (за замовчуванням)</string>
+    <string name="timeout_1500">1,5 секунди</string>
+    <string name="timeout_1000">1 секунда</string>
+    <string name="timeout_500">0,5 секунди</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Інформація телефону</string>
+
+    <string name="ambient_display_show_battery_title">Стан батареї</string>
+    <string name="ambient_display_show_battery_summary">Показувати індикатор батареї під час пульсації</string>
+
+    <string name="no_sim_cluster_switch_title">Приховати неактивну мережу</string>
+    <string name="no_sim_cluster_switch_summary">Приховати панель мережі, якщо sim-карта неактивна і вимкнена. Якщо sim-карту не вимкнуто, ця опція не працюватиме</string>
+
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_custom_brightness_title">Яскравість екрану при активації</string>
+    <string name="ambient_doze_auto_brightness_title">Автоматична яскравість екрану при активації</string>
+    <string name="ambient_doze_auto_brightness_summary">Використовувати останнє значення яскравості екрану при його активації</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Перемкнутись між кольором фону та акценту</string>
+    <string name="theme_title">Палітра</string>
+    <string name="theme_summary">Оберіть різні кольори для поточної теми</string>
+    <string name="theme_accent_color">Колір акценту</string>
+    <string name="theme_primary_color">Колір фону</string>
+    <string name="theme">Тема</string>
+    <string name="oms_enabled">Теми недоступні, оскільки активна тема Substratum</string>
+    <string name="red">Червоний</string>
+    <string name="orange">Помаранчевий</string>
+    <string name="blue">Морський</string>
+    <string name="green">Зелений</string>
+    <string name="yellow">Жовтий</string>
+    <string name="purple">Фіолетовий</string>
+    <string name="pink">Рожевий</string>
+    <string name="dark">Темний</string>
+    <string name="pixel">Піксель</string>
+    <string name="teal">Синій</string>
+    <string name="cyan">Блакитний</string>
+    <string name="grey">Сірий</string>
+    <string name="default_string">За замовчуванням</string>
+</resources>
