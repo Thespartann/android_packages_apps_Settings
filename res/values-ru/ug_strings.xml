@@ -18,50 +18,6 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">Настройки для разработчика активированы по умолчанию.</string>
 
-    <!-- Volume Steps -->
-    <string name="volume_steps_title">Уровни громкости</string>
-    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
-    <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
-    <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
-    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
-    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
-    <string name="volume_steps_system_title">Уровень громкости: Система</string>
-    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
-
-    <!-- Selinux Switch -->
-    <string name="selinux_switch_cat_title">Переключатель SELinux</string>
-    <string name="selinux_switch_title">Информация про SELinux</string>
-    <string name="selinux_switch_summary">SELinux это набор модификаций ядра и инструментов пользовательского пространства. Изменение режимов может привести к нежелательным последствиям. Используйте на свой риск.</string>
-    <string name="selinux_title">Режим SELinux</string>
-    <string name="selinux_permissive_title">Только предупреждение</string>
-    <string name="selinux_enforcing_title">Блокировка</string>
-    <string name="selinux_permissive_toast_title">SELinux в режиме: Только предупреждение!</string>
-
-    <!-- USB mode dialog -->
-    <string name="usb_mode_dialog_show_title">Показывать диалог выбора режима USB</string>
-    <string name="usb_mode_dialog_show_summary">Показывает диалог выбора режима, когда устройство подключается к компьютеру через USB</string>
-
-    <!-- Long press back to kill configurable timeout -->
-    <string name="kill_app_longpress_timeout_title">Длительность долгого нажатия кнопки «Назад»</string>
-    <string name="timeout_2000">2 секунды (по умолчанию)</string>
-    <string name="timeout_1500">1,5 секунды</string>
-    <string name="timeout_1000">1 секунда</string>
-    <string name="timeout_500">0,5 секунды</string>
-
-    <!-- Phone info shortcut -->
-    <string name="device_info_title">Информация телефона</string>
-
-    <string name="ambient_display_show_battery_title">Статус батареи</string>
-    <string name="ambient_display_show_battery_summary">Показывать значок батареи во время пульсации</string>
-
-    <string name="no_sim_cluster_switch_title">Скрыть неактивную сеть</string>
-    <string name="no_sim_cluster_switch_summary">Скрыть панель сети, если sim-карта неактивна и выключена. Если sim-карта не выключена, эта опция не будет работать</string>
-
-    <!-- Ambient Display Brightness -->
-    <string name="ambient_doze_custom_brightness_title">Яркость экрана при активации</string>
-    <string name="ambient_doze_auto_brightness_title">Автоматическая яркость экрана при активации</string>
-    <string name="ambient_doze_auto_brightness_summary">Использовать последнее значение яркости экрана при его активации</string>
-
     <!-- Color engine -->
     <string name="theme_switch_palette">Переключение между основным и дополнительным цветом</string>
     <string name="theme_title">Цветовая схема</string>
@@ -84,8 +40,13 @@
     <string name="grey">Серый</string>
     <string name="default_string">По умолчанию</string>
 
+    <!-- Quick Unlock -->
     <string name="quick_unlock_warning">Предупреждение</string>
     <string name="quick_unlock_warning_summary">Данная возможность обходит важный защитный механизм и плохо влияет на поддержку нескольких пользователей на устройстве. Используйте на свой риск</string>
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
+     
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скріншота</string>
 </resources>
+
