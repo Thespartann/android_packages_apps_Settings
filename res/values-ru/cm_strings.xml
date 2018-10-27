@@ -43,8 +43,8 @@
   <string name="root_access_warning_title">Разрешить использование cуперпользователя?</string>
   <string name="root_access_warning_message">Использование приложениями прав суперпользователя может быть крайне опасным и ставит под угрозу безопасность вашего устройства!</string>
   <string name="root_access_none">Выключен</string>
-  <string name="root_access_apps">Только для приложений</string>
-  <string name="root_access_adb">Только для ADB</string>
+  <string name="root_access_apps">Только приложения</string>
+  <string name="root_access_adb">Только ADB</string>
   <string name="root_access_all">Для приложений и ADB</string>
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Права суперпользователя</string>
@@ -60,13 +60,13 @@
   <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
   <!-- Whether the keyguard will directly show the password entry -->
   <string name="lock_directly_show_password">Сразу предлагать ввод пароля</string>
-  <string name="lock_directly_show_password_summary">Пропускать проведение пальцем вверх для разблокировки экрана и сразу же переходить к вводу пароля</string>
+  <string name="lock_directly_show_password_summary">Пропускать свайп для разблокировки экрана и немедленно переходить ко вводу пароля</string>
   <!-- Whether the keyguard will directly show the pattern view -->
   <string name="lock_directly_show_pattern">Сразу предлагать ввод граф. ключа</string>
-  <string name="lock_directly_show_pattern_summary">Пропускать проведение пальцем вверх для разблокировки экрана и сразу же переходить к вводу графического ключа</string>
+  <string name="lock_directly_show_pattern_summary">Пропускать свайп для разблокировки экрана и немедленно переходить ко вводу графического ключа</string>
   <!-- Whether the keyguard will directly show the PIN entry -->
   <string name="lock_directly_show_pin">Сразу предлагать ввод PIN-кода</string>
-  <string name="lock_directly_show_pin_summary">Пропускать проведение пальцем вверх для разблокировки экрана и сразу же переходить к вводу PIN-кода</string>
+  <string name="lock_directly_show_pin_summary">Пропускать свайп для разблокировки экрана и немедленно переходить ко вводу PIN-кода</string>
   <!-- PIN scramble -->
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
@@ -101,8 +101,8 @@
   <!-- Fingerprint sensor locations -->
   <string name="security_settings_fingerprint_sensor_location_back">задней панели</string>
   <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
-  <string name="security_settings_fingerprint_sensor_location_left">левой грани</string>
-  <string name="security_settings_fingerprint_sensor_location_right">правой грани</string>
+  <string name="security_settings_fingerprint_sensor_location_left">левой стороне</string>
+  <string name="security_settings_fingerprint_sensor_location_right">правой стороне</string>
   <!-- Hostname setting -->
   <string name="device_hostname">Сетевое имя устройства</string>
   <!-- Increasing ring tone volume -->
@@ -110,7 +110,7 @@
   <string name="increasing_ring_min_volume_title">Начальная громкость</string>
   <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
   <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Связать громкость рингтона &amp; уведомлений</string>
+  <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
   <!-- Memory -->
   <string name="memory_startup_apps_title">Запущено при включении устройства</string>
   <!-- Manual provisioning support -->
@@ -302,7 +302,7 @@
   <string name="app_ops_allowed_count">Разрешено <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Запрещено <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Разрешено <xliff:g id="count">%1$s</xliff:g>, запрещено <xliff:g id="count">%2$s</xliff:g></string>
-  <string name="app_ops_no_blockable_permissions">Нет разрешений, доступных для блокировки</string>
+  <string name="app_ops_no_blockable_permissions">Отсутствуют разрешения для блокировки</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Загруженные приложения</string>
   <string name="app_ops_show_system_apps">Системные приложения</string>
