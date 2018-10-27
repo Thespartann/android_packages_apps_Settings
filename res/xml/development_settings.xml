@@ -35,6 +35,12 @@
             android:title="@*android:string/bugreport_title"
             android:dialogTitle="@*android:string/bugreport_title" />
 
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:key="local_backup_password"
             android:title="@string/local_backup_password_title"
@@ -128,11 +134,35 @@
 
         <SwitchPreference
             android:key="enable_adb"
-            android:title="@string/enable_adb"
-            android:summary="@string/enable_adb_summary" />
+            android:title="@string/adb_enable"
+            android:summary="@string/adb_enable_summary" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:dependency="enable_adb"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="adb_over_network"
+            android:title="@string/adb_over_network"
+            android:summary="@string/adb_over_network_summary"
+            android:dependency="enable_adb" />
 
         <Preference android:key="clear_adb_keys"
                     android:title="@string/clear_adb_keys" />
+
+        <org.lineageos.internal.preference.HostnamePreference
+            android:key="device_hostname"
+            android:title="@string/device_hostname"
+            android:dialogTitle="@string/device_hostname"
+            android:positiveButtonText="@string/wifi_save"
+            android:negativeButtonText="@string/wifi_cancel"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionDone"
+            android:inputType="textNoSuggestions"
+            android:persistent="false" />
 
         <SwitchPreference
             android:key="enable_terminal"
@@ -516,6 +546,12 @@
         <Preference
             android:key="reset_shortcut_manager_throttling"
             android:title="@string/reset_shortcut_manager_throttling" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="kill_app_longpress_back"
+            android:title="@string/kill_app_longpress_back"
+            android:summary="@string/kill_app_longpress_back_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
 </PreferenceScreen>
